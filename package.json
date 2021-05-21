@@ -1,0 +1,28 @@
+{
+  "name": "simple-compose",
+  "version": "1.0.0",
+  "description": "This is just a simple, zero dependency, vanilla JavaScript, 100% compatible with all browsers and straight forward compose of functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emmanuelkant/simple-compose.git"
+  },
+  "keywords": [
+    "compose",
+    "javascript",
+    "functions",
+    "helper"
+  ],
+  "author": "Emmanuel Kant Duarte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emmanuelkant/simple-compose/issues"
+  },
+  "homepage": "https://github.com/emmanuelkant/simple-compose#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
