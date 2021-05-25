@@ -4,7 +4,7 @@
   "description": "This is just a simple, zero dependency, vanilla JavaScript, 100% compatible with all browsers and straight forward compose of functions.",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "jest . --coverage"
   },
   "repository": {
     "type": "git",
