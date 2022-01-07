@@ -99,7 +99,7 @@ describe('Simple Compose tests', () => {
     expect(result).toBe('Emmanuel Kant Duarte');
   });
 
-  it('should receive only one param in all functions except the on the first one', () => {
+  it('should receive only one param in all functions except at the first one', () => {
     function fn1(param, otherParam) {
       return param + ' Duarte ' + otherParam;
     }
