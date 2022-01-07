@@ -36,6 +36,38 @@ Vanilla Javascript and nothing more.
    export default compose(fn1, fn2, fn3, fn4, fn5, fn6, ..... f284)(mySimpleFunc)
    ```
 
+### Note
+
+In case you need. The function that is returned by the `compose` function, can accept as many params as you want but the subsequence function doesn't. Those functions just accept only one param, which is the param that the last function returned. See the examples below:
+
+## Wrong :red_circle:
+
+```js
+   function fn1(param1, param2, param3) {
+      /** Implementation */
+   }
+
+   function fn2(param1, param2, param3) {
+      /** Implementation */
+   }
+
+   compose(fn1, fn2)('foo', 'bar', 'xar');
+```
+
+## Right :white_check_mark:
+
+```js
+   function fn1(param) {
+      /** Implementation */
+   }
+
+   function fn2(param1, param2, param3) {
+      /** Implementation */
+   }
+
+   compose(fn1, fn2)('foo', 'bar', 'xar');
+```
+
 <!-- CONTRIBUTING -->
 ## Contributing
 
