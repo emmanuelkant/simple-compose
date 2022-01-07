@@ -11,12 +11,12 @@ function compose() {
 
   funcs = funcs.reverse();
 
-	return function innerCompose() {
+  return function innerCompose() {
     if (!funcs.length) {
       return undefined;
     }
 
-    return funcs.reduce(function(args, fn, i) {
+    return funcs.reduce(function (args, fn, i) {
       if (i === 0) {
         return fn.apply(this, args)
       };
