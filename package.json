@@ -1,6 +1,6 @@
 {
   "name": "simple-compose",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "This is just a simple, zero dependency, vanilla JavaScript, 100% compatible with all browsers and straight forward compose of functions.",
   "main": "index.js",
   "scripts": {
